@@ -6,7 +6,9 @@
   #74119c
 */
 
-
+tableDiv{
+ margin: auto;
+}
 
 button {
   padding: 10px 0px;
@@ -25,26 +27,37 @@ table {
   border-radius: 4px;
   border-collapse: separate;
   border-spacing: 10px;
+
 }
 
-th {
-  width: 150px;
+thead {
   height: 100px;
-  padding: 6px 25px;
-  border: 1px, solid;
-  text-align: center;
-  font-weight: 700;
-  font-size: 20px;
-  cursor: default;
-  background-color: #74119c;
-  letter-spacing: .3pt;
-  border-radius: 4px;
+  font-size: 1 rem;
+  background-color: #115ff4;
+  color: white;
 }
+
+.table-body {
+position: relative;
+font-size: 1rem;
+background-color: #060ce9;
+color: white;
+}
+
+tbody .answer {
+background-color: green;
+}
+
+.showing-null {
+font-size: 2rem;
+}
+
 
 td {
   border: 1px, solid;
   border-radius: 4px;
   background-color: #060ce9;
+  outline-color: black;
   width: 150px;
   height: 100px;
   padding: 6px 20px;
