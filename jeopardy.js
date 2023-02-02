@@ -129,6 +129,7 @@ function fillTable() {
     // what clue should go on that td. These coordinates will be used to show on click.
     for (let y = 0; y < NUM_QUESTIONS; y++) {
         let newRow = document.createElement('tr');
+        // !!!!!
         let $newRow = $(newRow);
         for (let x = 0; x < NUM_CATEGORIES; x++) {
             let $td = $('<td>');
